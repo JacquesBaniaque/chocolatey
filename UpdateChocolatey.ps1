@@ -16,9 +16,11 @@ Write-Host "`n========= Updating chocolatey... ========="
 & choco install putty -y
 & choco install 7zip -y
 & choco install postman -y
-& choco install openjdk -y
+& choco install openjdk --allow-multiple -y
+& choco install openjdk --allow-multiple --version 11.0.2.01 -y
 & choco install docker-desktop -y
 & choco install minikube -y
+& choco upgrade -y all
 
 Write-Host "Press any key to continue..."
 $x = $host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
