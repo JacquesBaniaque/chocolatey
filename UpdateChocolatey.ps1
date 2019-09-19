@@ -16,7 +16,6 @@ Write-Host "`n========= Updating chocolatey... ========="
 & choco install putty -y
 & choco install 7zip -y
 & choco install postman -y
-& choco install jdk11 -y
 & choco install openjdk -y
 & choco install docker-desktop -y
 & choco install minikube -y
