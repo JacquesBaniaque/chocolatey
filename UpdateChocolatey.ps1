@@ -18,6 +18,7 @@ Write-Host "`n========= Updating chocolatey... ========="
 & choco install postman -y
 & choco install openjdk --allow-multiple -y
 & choco install openjdk --allow-multiple --version 11.0.2.01 -y
+& choco install openjdk --allow-multiple --version 15.0.0 -y
 & choco install docker-desktop -y
 & choco install minikube -y
 & choco upgrade -y all
