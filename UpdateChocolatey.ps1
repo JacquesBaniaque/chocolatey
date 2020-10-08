@@ -21,6 +21,8 @@ Write-Host "`n========= Updating chocolatey... ========="
 & choco install openjdk --allow-multiple --version 15.0.0 -y
 & choco install docker-desktop -y
 & choco install minikube -y
+& choco install steam -y
+& choco install epicgameslauncher -y
 & choco upgrade -y all
 
 Write-Host "Press any key to continue..."
